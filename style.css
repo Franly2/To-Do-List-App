@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.container {
+  margin: auto;
+  min-height: 100vh;
+  background: #2a262d;
+  padding: 20px 50px;
+}
+
+.input-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(129, 129, 129, 0.368);
+  border-radius: 30px;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 50px;
+  color: rgb(255, 0, 102);
+}
+
+.text-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.button-submit {
+  color: rgb(255, 0, 102);
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.button-submit:hover {
+  opacity: 0.8;
+}
+
+.button-submit:active {
+  opacity: 0.6;
+}
+
+.content-container {
+  padding-top: 40px;
+}
+
+.content-container h3 {
+  color: rgb(255, 0, 102);
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.task {
+  display: flex;
+  margin-top: 10px;
+  color: rgb(255, 0, 102);
+  border-radius: 30px;
+  padding: 0 20px;
+  margin-left: 20px;
+  background: #270a17;
+}
+
+.task input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.task button {
+  font-size: 15px;
+  color: rgb(180, 25, 125);
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background-color: black;
+  padding: 10px;
+  cursor: pointer;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.task button:hover {
+  opacity: 0.8;
+}
+
+.task button:active {
+  opacity: 0.6;
+}
